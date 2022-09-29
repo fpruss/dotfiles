@@ -1,0 +1,6 @@
+key_bindings:
+  - { key: V,	mods: Control,	action: Paste	}
+shell:
+  program: /usr/bin/fish
+  args:
+    - --login
