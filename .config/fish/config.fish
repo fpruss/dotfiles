@@ -5,4 +5,4 @@ end
 alias vimdiff="nvim -d"
 alias vim="nvim"
 alias vi="nvim"
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
