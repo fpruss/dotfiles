@@ -1,7 +1,7 @@
 modkey = "Mod4"
 mousekey = "Mod4"
 workspaces = []
-tags = ["1:web", "2:dev", "3:chat", "4:term", "5:tools", "6", "7", "8", "9"]
+tags = ["1:web", "2:dev", "3:term", "4:chat", "5:mail", "6:tools", "7:notes", "8", "9"]
 layouts = ["MainAndVertStack", "MainAndHorizontalStack", "GridHorizontal", "EvenHorizontal", "LeftMain", "CenterMainBalanced", "CenterMainFluid", "Monocle", "RightWiderLeftStack", "LeftWiderRightStack"]
 layout_mode = "Workspace"
 insert_behavior = "Bottom"
@@ -43,6 +43,13 @@ command = "ToggleScratchPad"
 value = "Keepass"
 modifier = ["modkey"]
 key = "F2"
+
+
+[[keybind]]
+command = "ToggleFloating"
+value = "Keepass"
+modifier = ["modkey", "Control"]
+key = "f"
 
 [[keybind]]
 command = "ToggleScratchPad"
