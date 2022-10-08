@@ -72,7 +72,7 @@
         (command: SetLayout, value: "CenterMainFluid", modifier: ["modkey"], key: "c"),
         (command: SetLayout, value: "Monocle", modifier: ["modkey"], key: "m"),
         (command: ToggleFullScreen, value: "", modifier: ["modkey"], key: "f"),
-        (command: SetLayout, value: "CenterMainBalanced", modifier: ["modkey"], key: "r"),
+        (command: SetLayout, value: "MainAndVertStack", modifier: ["modkey"], key: "r"),
         (command: FocusWorkspaceNext, value: "", modifier: ["modkey"], key: "l"),
         (command: FocusWorkspacePrevious, value: "", modifier: ["modkey"], key: "h"),
         (command: ReturnToLastTag, value: "", modifier: ["modkey"], key: "n"),
@@ -94,7 +94,7 @@
         (command: MoveToTag, value: "7", modifier: ["modkey", "Shift"], key: "7"),
         (command: MoveToTag, value: "8", modifier: ["modkey", "Shift"], key: "8"),
         (command: MoveToTag, value: "9", modifier: ["modkey", "Shift"], key: "9"),
-	(command: ToggleFloating, modifier: ["modkey", "Ctrl"], key: "f")
+	(command: ToggleFloating, modifier: ["modkey", "Control"], key: "f")
     ],
     state_path: None,
 )
