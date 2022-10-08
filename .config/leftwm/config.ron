@@ -40,7 +40,6 @@
     insert_behavior: Bottom,
     scratchpad: [
         (name: "Alacritty", value: "alacritty", x: None, y: None, height: None, width: None),
-        (name: "Keepass", value: "keepassxc", x: None, y: None, height: None, width: None),
     ],
     window_rules: [],
     disable_current_tag_swap: false,
@@ -53,8 +52,6 @@
         (command: Execute, value: "rofi -show-icons -modi windowcd,window,drun -show drun", modifier: ["modkey"], key: "d"),
         (command: Execute, value: "alacritty -e fish", modifier: ["modkey"], key: "F3"),
         (command: Execute, value: "firefox", modifier: ["modkey"], key: "F1"),
-        (command: ToggleScratchPad, value: "Keepass", modifier: ["modkey"], key: "F2"),
-        (command: ToggleFloating, value: "Keepass", modifier: ["modkey", "Control"], key: "f"),
         (command: ToggleScratchPad, value: "Alacritty", modifier: ["modkey"], key: "F4"),
         (command: ToggleSticky, value: "", modifier: ["modkey"], key: "v"),
         (command: CloseWindow, value: "", modifier: ["modkey", "Shift"], key: "q"),
@@ -97,6 +94,7 @@
         (command: MoveToTag, value: "7", modifier: ["modkey", "Shift"], key: "7"),
         (command: MoveToTag, value: "8", modifier: ["modkey", "Shift"], key: "8"),
         (command: MoveToTag, value: "9", modifier: ["modkey", "Shift"], key: "9"),
+	(command: ToggleFloating, modifier: ["modkey", "Ctrl"], key: "f")
     ],
     state_path: None,
 )
