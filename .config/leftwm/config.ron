@@ -50,9 +50,11 @@
     sloppy_mouse_follows_focus: true,
     keybind: [
         (command: Execute, value: "rofi -show-icons -modi windowcd,window,drun -show drun", modifier: ["modkey"], key: "d"),
-        (command: Execute, value: "alacritty -e fish", modifier: ["modkey"], key: "F3"),
         (command: Execute, value: "firefox", modifier: ["modkey"], key: "F1"),
-        (command: ToggleScratchPad, value: "Alacritty", modifier: ["modkey"], key: "F4"),
+        (command: Execute, value: "thunar", modifier: ["modkey"], key: "F2"),
+        (command: Execute, value: "alacritty -e fish", modifier: ["modkey"], key: "F3"),
+        (command: Execute, value: "keepassxc", modifier: ["modkey"], key: "F4"),
+        (command: ToggleScratchPad, value: "Alacritty", modifier: ["modkey"], key: "F5"),
         (command: ToggleSticky, value: "", modifier: ["modkey"], key: "v"),
         (command: CloseWindow, value: "", modifier: ["modkey", "Shift"], key: "q"),
         (command: SoftReload, value: "", modifier: ["modkey", "Shift"], key: "r"),
