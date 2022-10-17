@@ -5,4 +5,5 @@ end
 alias vimdiff="nvim -d"
 alias vim="nvim"
 alias vi="nvim"
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias personal='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias work='/usr/bin/git --git-dir=$HOME/work_dotfiles/ --work-tree=$HOME'
