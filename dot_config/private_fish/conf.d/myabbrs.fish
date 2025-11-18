@@ -1,5 +1,6 @@
 abbr -a -- k kubectl
 abbr -a -- t talosctl
+abbr -a -- kctx kubectx
 abbr -a -- gs 'git status'
 abbr -a -- czms 'chezmoi status'
 abbr -a -- ga 'git add'
