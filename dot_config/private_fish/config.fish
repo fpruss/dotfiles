@@ -14,7 +14,7 @@ if status is-interactive
   set -gx DOCKER_BUILDKIT 1
   set -gx COMPOSE_DOCKER_CLI_BUILD 1
   set -g fish_bind_mode insert
-  set -g theme_newline_cursor yes
+  set -g theme_newline_cursor no
 
   # Title options
   set -g theme_title_display_process yes
@@ -25,7 +25,8 @@ if status is-interactive
   # Prompt options
   set -g theme_display_virtualenv no
   set -g theme_display_vi yes
-  set -g theme_display_k8s_context no
+  set -g theme_display_k8s_context yes
+  set -g theme_display_k8s_namespace yes
   set -g theme_display_user ssh
   set -g default_user fpruss
   set -g theme_display_hostname ssh
